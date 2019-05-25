@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	</head>
+	<body>
+    <h1>Validaciones-Examenes</h1>
+    <script type="text/javascript">
+				let dia = prompt("¿Qué día es? ");
+				dia = dia.toUpperCase();
+				if(dia === "LUNES" || dia === "MIERCOLES"){
+          alert("Hoy vas a tu clase de HISTORIA =)");
+        } else if (dia === "MARTES"){
+          alert("Hoy vas a tu clase de NATACION =)");
+        } else if (dia === "JUEVES"){
+          alert("Hoy vas a tu clase de ESGRIMA =)");
+        }else if(dia === "VIERNES" || dia === "SABADO" || dia === "DOMINGO"){
+          alert("Hoy es día de descanso!!! =)");
+        }else{
+					alert("Valores válidos: \"LUNES ó MARTES ó MIERCOLES ó JUEVES ó VIERNES ó SABADO ó DOMINGO\"");
+				}
+
+    </script>
+	</body>
+</html>
